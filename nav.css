@@ -20,6 +20,7 @@ ul {
 }
 
 li {
+    font-weight: bold;
     display: inline;
     cursor: pointer;
     margin: 0 10px;
