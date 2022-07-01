@@ -40,7 +40,6 @@ h1{
     color: rgb(56, 56, 56);
 }
 
-
 article{
     width: 250px;
     height: 350px;
@@ -85,6 +84,10 @@ footer{
     justify-content: space-around;
 }
 
+.info{
+    margin: 60px 0
+}
+
 .text{
     margin: 0%;
     width: 100%;
@@ -119,7 +122,7 @@ footer{
 
 .checkbutton{
     float: right;
-    margin-right: 50%;
+    margin-right: 45%;
 }
 
 /* id */
