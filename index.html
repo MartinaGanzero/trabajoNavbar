@@ -1,23 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>navbar</title>
-    <link rel="stylesheet" href="./nav.css">
+    <title>Crocantitas</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
-    <header >
+    <header>
         <nav>
-            <img src="./img/logo.png">
+            <img class="logoNav" src="./img/logocrocantitas.jpeg">
             <ul>
-                <li>Inicio</li>
-                <li>Contacto</li>
-                <li>Ubicacion</li>
-                <li>Sobre nosotros</li>
+                <li><a> Inicio </a></li>
+                <li><a> Productos </a></li>
+                <li><a> Contacto </a></li>
+                <li><a> Ubicacion </a></li>
             </ul>
         </nav>
     </header>
+    <main>
+        <h1> Nuestros productos</h1>
+        <section>
+            <div class="productos">
+                <article>
+                    <h2>Pasteleria</h2>
+                    <img src="./img/croasant.jpeg">
+                </article>
+                <article>
+                    <h2>Panificados</h2>
+                    <img src="./img/pan.jpeg">
+                </article>
+                <article>
+                    <h2>Macarons</h2>
+                    <img src="./img/macarons.jpg">
+                </article>
+                <article>
+                    <h2>Postres</h2>
+                    <img src="./img/pasteleriafrancesa.jpg">
+                </article>
+                <article>
+                    <h2>Bombones</h2>
+                    <img src="./img/bombones.jpg">
+                </article>
+            </div>
+            <button class="checkbutton">
+                Mas productos
+            </button>
+        </section>
+        <section class="info">
+            <h1>Sobre nosotros</h1>
+            <article class="text">
+                <div class="soloTexto">
+                <p>Somos un negocio familiar en el cual buscamos lo mejor para nuestros clientes, tratando de
+                    brindar la mejor experiencia a la hora de consumir nuestros productos.</p>
+                <p>El secreto para lograr la calidad, la frescura y el sabor inigualable de los productos que elaboramos se debe a la materia prima que utilizamos, ademas de nuestros grandes panaderos.</p>
+                </div>
+            <img class="foto" src="./img/panadero.jpg">
+            </article>
+        </section>
+    </main>
 </body>
+<footer>
+    <img id="imgfooter" src="./img/logocrocantitas.jpeg">
+    <div class="horarios">
+    <p>Ubicacion:Calle 4 esquina 55 numero 1098</p>
+    <p>Tel:221 4223728</p>
+    <p>Horarios: Lunes a Sabados de 08:30 hs a 20:00 hs y Domingos de 09:00 hs a 14:00 hs</p>
+     </div>
+</footer>
+
 </html>
